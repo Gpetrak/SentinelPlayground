@@ -302,18 +302,7 @@ class App extends Component {
             </div>
           </div>
 
-          <a
-            id="toggleSettings"
-            className={!this.state.toolsVisible && "hidden"}
-            onClick={() =>
-              this.setState({ toolsVisible: !this.state.toolsVisible })}
-          >
-            <i
-              className={
-                "fa fa-" + (this.state.toolsVisible ? "chevron-left" : "cogs")
-              }
-            />
-          </a>
+        
           <Tools
             onResize={this.onResize}
             doGenerate={this.doGenerate}

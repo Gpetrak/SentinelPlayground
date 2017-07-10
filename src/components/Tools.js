@@ -4,7 +4,7 @@ import EffectsPanel from './EffectsPanel'
 import Tabs from 'react-simpletabs'
 import 'style!css!sass!./Tools.scss';
 import Store from '../store'
-import logo from '../logo.png'
+import logo from '../senselab_playground_logo.png'
 import {connect} from 'react-redux'
 
 let tabPanel, menuPanel

@@ -4,7 +4,7 @@ const common = {
     mapId: "mapId",
     baseWmsUrl: "services.sentinel-hub.com",
     indexBaseUrl: "services.sentinel-hub.com",
-    instanceID: "YOUR_API_KEY"
+    instanceID: "292a9b0f-3750-7b1e-ad6f-4800e6f9f51a?"
   },
   views = {
     PRESETS: "1",
